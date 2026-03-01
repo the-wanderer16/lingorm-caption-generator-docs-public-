@@ -59,7 +59,7 @@ Still supports #PFW tracking where relevant.
 
 ## 🔹 3 March — PFW Show Day Mode
 
-Designed for Dior AW26 runway / official appearance content.
+Designed for Dior AW2026 runway / official appearance content.
 
 Focus:
 - Couture language
@@ -143,7 +143,7 @@ You may edit:
 
 ⚠ Editing the Threads Reply block must still include required tags.
 
-‼️ Always update blocks according to LingOrm_TagTrend instructions.
+**‼️ Always update blocks according to LingOrm_TagTrend instructions.‼️**
 
 ---
 
