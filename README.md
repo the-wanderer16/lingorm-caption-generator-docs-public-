@@ -20,9 +20,9 @@ This tool was built to:
 - Standardize support posts across X, Threads, Instagram, and Facebook  
 - Ensure highly accurate EMV and MIV tracking (via Lefty) by strictly adhering to official tag limits  
 - Maximize Share of Voice (SOV) by generating thousands of unique, spam-proof combinations  
+- Boost individual tracking metrics via randomized full-name injections  
 - Maintain consistent, grammatically perfect luxury phrasing aligned with Dior's brand identity  
-- Support dynamic multi-day trending coordination (Airport Pre-Rank 1, Airport Post-Rank 1, and PFW day)  
-- Make coordinated posting easier on both desktop and mobile  
+- Streamline coordinated posting with smart "Copy Full" and "Copy Caption Only" UI tools  
 
 This is a static tool.  
 No data is collected. No captions are stored remotely.
@@ -39,108 +39,79 @@ All posts should:
 
 ---
 
-# 🗓 Triple Mode Caption Engine
+# 🗓 Dual Mode Caption Engine
 
-The generator now includes a dynamic Triple Mode Selection to automate TagTrend transitions:
+The generator features a dynamic Mode Selection to automate TagTrend transitions and streamline the UI based on the specific trend day:
 
-## 🔹 Airport - 02 MAR (Pre-Rank #1)
+## 🔹 AIRPORT - Full Tags (Rank #1 Reached)
 
-Designed for initial takeoff and arrival content.
+Designed for travel, momentum, and arrival content.
 
 Focus:
 - Travel elegance and jet-set momentum
-- Automatically limits X tags to the primary trend (`#LingOrmDiorAW26APTLook`) to concentrate volume.
+- Automatically applies the full 5-tag EMV/MIV tracking block to secure global valuation metrics on X and Instagram.
+- **Smart UI:** Automatically hides the Facebook and Threads hashtag blocks to keep the interface clean and focused on primary platforms.
 
-## 🔹 Airport - 02 MAR (Post-Rank #1)
-
-Designed to deploy the full tracking suite *after* the primary tag hits #1 on X.
-
-Focus:
-- Automatically appends the full 5-tag EMV/MIV tracking block to secure global valuation metrics.
-
-## 🔹 03 MAR — PFW Show Day Mode
+## 🔹 PFW DAY - 03 MAR 2026
 
 Designed for Dior AW2026 runway and official appearance content.
 
 Focus:
 - Couture language and brand alignment
-- Uses the official `LingOrmDiorAW26` main tag block.
+- Uses the official `LingOrmDiorAW26` main tag block across platforms.
+- **Smart UI:** Un-hides Facebook and Threads blocks for full multi-platform deployment.
 
-*Switching the dropdown automatically loads the correct phrase bank and exact X Post Hashtag Block required for that moment.*
+*Switching the dropdown automatically loads the correct phrase bank, UI layout, and exact Hashtag Blocks required for that moment.*
 
 ---
 
-# 🧭 Platform Modes
+# 🧭 Platform Modes & UX
 
 The generator supports:
 
----
-
 ## 1️⃣ X (Posts)
-
 - Enforced 280 character limit  
-- X Hashtag block automatically updates based on the "Trend Day" Triple Mode  
+- X Hashtag block automatically updates based on Trend Day  
 - CTA automatically disabled  
 
----
+## 2️⃣ Instagram (Posts)
+- Multi-line stacked hashtag formatting  
+- **Dynamic VIP Tagging:** Auto-updates based on Trend Day to include key PR executives (`@mathildefavier`, `@utzpeter`) alongside the brand and idols, ensuring maximum internal Lefty visibility.
 
-## 2️⃣ Threads (Posts)
-
-- Similar to X  
-- Allows CTA  
-- Uses primary hashtag block  
-
----
-
-## 3️⃣ Threads (Replies / Quotes) ⚠ CRITICAL MODE
-
-This mode enforces official coordination guidelines.
-
-Required in every reply / quote to guarantee tracking:
-
+## 3️⃣ Threads (Post / Reply / Quote) ⚠ CRITICAL MODE
+This mode enforces official coordination guidelines. Required in every post/reply to guarantee tracking:
 - LingOrmDiorAW26  
 - #PFW  
 - @Dior  
 - @linglingkwong  
 - @orm.kornnaphat  
 
-If these are missing from the Threads Reply block, generation will stop.
+If these are missing from the Threads block, generation will stop.
 
-This ensures:
-
-- Proper Paris Fashion Week tagging  
-- Accurate monitoring (Lefty / Firehose-weighted systems)  
-- Full brand visibility  
-
----
-
-## 4️⃣ Instagram (Posts)
-
-- Multi-line stacked hashtag formatting  
-- Strict 5-hashtag limit to optimize Lefty tracking algorithms  
-- CTA enabled  
-- Supports @dior tagging  
-
----
-
-## 5️⃣ Facebook (Posts)
-
+## 4️⃣ Facebook (Posts)
 - Optimized stacked formatting  
 - CTA enabled  
 
 ---
 
+# 📋 Dual-Copy UX
+
+To give users maximum flexibility, the generator outputs two copy buttons per caption:
+
+- **Copy Full:** Copies the generated text, formatting, CTA, and the Hashtag block together. Perfect for X and Threads.
+- **Copy Caption Only:** Copies *only* the text and CTA. Perfect for Instagram users who prefer to post their hashtags in a separate comment.
+
+---
+
 # 🏷 Hashtag Blocks (Editable)
 
-The “Hashtag blocks” section is always visible and pre-loaded with the TagTrend Admin rules.
+The “Hashtag blocks” section is pre-loaded with the TagTrend Admin rules.
 
-**⚠ Hashtag Limit per Post:** To ensure a clean presentation and accurate EMV/MIV tracking (especially on IG which limits optimal tracking to 5 tags), the default blocks are locked to the most essential tags:
-`LingOrmDiorAW26`, `#DiorAW26`, `#LinglingKwong`, `#OrmKornnaphat`, `#PFW`, plus the `@Dior` mention.
+**⚠ Hashtag Limit per Post:** To ensure a clean presentation and accurate EMV/MIV tracking, blocks are locked to the most essential tags.
 
 You may edit:
-
-- X post block (Auto-updates via Trend Day, but can be manually overridden)  
-- Instagram post block  
+- X post block (Auto-updates via Trend Day)  
+- Instagram post block (Auto-updates via Trend Day)  
 - Facebook post block  
 - Threads Post / Reply / Quote block  
 
@@ -153,8 +124,7 @@ You may edit:
 The generator uses a sophisticated **Safe Swap Engine** to balance grammatical quality (for MIV) with combinatorial volume (for SOV). 
 
 Each caption is generated using a locked core sentence:
-
-- Subject (LingOrm)  
+- Subject  
 - Fashion descriptor  
 - Anchor (Airport or PFW context)  
 - Authority statement (as Dior Brand Ambassadors)  
@@ -162,7 +132,9 @@ Each caption is generated using a locked core sentence:
 And a randomized variable:
 - Optional, randomized ending line  
 
-By keeping the core grammar locked and randomly swapping the punchline and formatting breaks, the generator yields **over 40,000 mathematically unique captions per bank**. This prevents identical string structures from triggering bot/spam algorithms on X and Threads.
+**🌟 Individual SOV Boost:** The engine includes a 30% randomization chance to swap the standard "LingOrm" subject with their full individual names ("Lingling Kwong and Orm Kornnaphat"). This organically feeds their individual Launchmetrics tracking without breaking the unit's brand identity.
+
+By keeping the core grammar locked and randomly swapping the punchline, formatting breaks, and subjects, the generator yields **over 40,000 mathematically unique, highly legible captions per bank**. 
 
 ---
 
@@ -170,114 +142,73 @@ By keeping the core grammar locked and randomly swapping the punchline and forma
 
 Two levels of duplicate control:
 
----
-
 ## 1️⃣ Within Current Batch
-
-If the same caption appears twice in one generation:
-
-It will be marked DUPLICATE.
-
----
+If the same caption appears twice in one generation, it will be marked DUPLICATE.
 
 ## 2️⃣ Seen Before (This Device Only)
+Previously generated captions are stored locally in your browser. If a new caption matches an older one, it will be marked SEEN.
 
-Previously generated captions are stored locally in your browser.
+*Note: Duplicate fingerprinting specifically scans the **Caption Text Only**. Changing hashtags will not trick the system into passing a duplicate sentence, keeping our timeline 100% spam-free.*
 
-If a new caption matches an older one:
-
-It will be marked SEEN.
-
-You may clear history anytime using:
-
-Clear duplicate history (this device)
-
-No server storage is used.
+You may clear history anytime using: `Clear duplicate history (this device)`
 
 ---
 
 # 🗂 Phrase Banks (Embedded)
 
-The generator utilizes 400 total meticulously drafted rows:
+The generator utilizes 440 total meticulously drafted rows:
+- 220 Airport Phrase Rows (Travel, Flâneur context)
+- 220 PFW Phrase Rows (Savoir-faire, Aristo-youth context)
 
-- 200 Airport Phrase Rows (Travel, Flâneur context)
-- 200 PFW Phrase Rows (Savoir-faire, Aristo-youth context)
-
-These banks are embedded directly in the source code.
-
-There is no public BANK editor to prevent formatting errors, grammatical breakage, or misuse.
-
-If updates are required:
-- The creator updates the source code
-- A new version is deployed
+These banks are embedded directly in the source code. There is no public BANK editor to prevent formatting errors, grammatical breakage, or misuse.
 
 ---
 
 # 📏 Posting Guidelines
 
 ## Primary Topic
-
 Always use the combined tracking tag for this season:
-
 LingOrmDiorAW26
 
-*Note: This will be counted in place of #LingOrm.*
-
----
-
 ## Paris Fashion Week Context
-
 Include:
-
 #PFW
-
 Especially in replies and quotes.
 
----
-
 ## Tagging
-
 Always mention:
-
 @Dior  
 @linglingkwong  
 @orm.kornnaphat  
-
 For maximum visibility and brand alignment.
-
-Remember to manually tag correctly on each platform.
 
 ---
 
 # 🎯 Best Practices
 
-- Generate smaller batches (10–20 at a time)  
-- Check TagTrend updates regularly to switch your X Mode from "Pre-Rank #1" to "Post-Rank #1"  
-- Keep tone elegant, high-fashion, and brand-aligned  
-- Do not exceed the recommended 5 hashtags  
+- Generate smaller batches (10–20 at a time).  
+- Use **Copy Caption Only** if you plan to inject the hashtags into a comment.  
+- Keep tone elegant, high-fashion, and brand-aligned.  
+- Do not exceed the recommended 5 Lefty-optimized hashtags.  
 
 ---
 
 # 🔒 Privacy
 
 This is a static Cloudflare Pages site.
-
 - No analytics  
 - No tracking  
 - No caption uploads  
 - No personal data stored  
 
-LocalStorage is used only for duplicate detection on your device.
-
-The GitHub repository is private.  
-Only the deployed static site is publicly accessible.
+LocalStorage is used only for duplicate detection on your device. Only the deployed static site is publicly accessible.
 
 ---
 
 # 🛠 Tech Stack
 
 - HTML  
-- CSS (Luxury minimal theme)  
+- CSS (Luxury Dark theme)  
 - Vanilla JavaScript (Lexical Safe Swap Engine)  
 - Cloudflare Pages deployment  
 - Private GitHub version control  
@@ -293,9 +224,7 @@ Consistency strengthens brand positioning.
 
 Every well-crafted caption strengthens LingOrm’s visibility, narrative, and digital MIV/EMV impact during Paris Fashion Week AW2026.
 
-Thank you for contributing to LingOrm’s Dior AW2026 campaign.
-
-Let’s elevate LingOrm’s impact together.
+Thank you for contributing to LingOrm’s Dior AW2026 campaign. Let’s elevate LingOrm’s impact together.
 
 ---
 
