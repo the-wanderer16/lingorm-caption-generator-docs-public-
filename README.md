@@ -22,7 +22,7 @@ This tool was built to:
 - Maximize Share of Voice (SOV) by generating thousands of unique, spam-proof combinations  
 - Boost individual tracking metrics via randomized full-name injections  
 - Maintain consistent, grammatically perfect luxury phrasing aligned with Dior's brand identity  
-- Streamline coordinated posting with smart "Copy Full" and "Copy Caption Only" UI tools  
+- Streamline coordinated posting with smart "Copy Full", "Copy Caption Only", and mobile "Tap-to-Copy" UI tools  
 
 This is a static tool.  
 No data is collected. No captions are stored remotely.
@@ -65,7 +65,7 @@ Focus:
 
 ---
 
-# 🧭 Platform Modes & UX
+# 🧭 Platform Modes & Rules
 
 The generator supports:
 
@@ -94,9 +94,20 @@ If these are missing from the Threads block, generation will stop.
 
 ---
 
-# 📋 Dual-Copy UX
+# 📱 Mobile-First Design & UX
 
-To give users maximum flexibility, the generator outputs two copy buttons per caption:
+To ensure lightning-fast coordination on the go, the tool includes luxury mobile app behaviors:
+
+- **Collapsible Hashtag Accordion:** Keeps the settings UI clean and compact on small screens by hiding the advanced text blocks until you need to edit them.
+- **Sticky Glass Header:** The "Generate" and "Clear" actions stay locked to the top of your screen as you scroll through results, saving you from scrolling back up.
+- **Auto-Glide Navigation:** Hitting "Generate" or "Jump to results" automatically smooth-scrolls you directly to your fresh batch of captions.
+- **Tap-to-Copy:** In addition to the dedicated copy buttons, mobile users can simply tap anywhere on the generated caption text block itself to instantly copy the full text to their clipboard.
+
+---
+
+# 📋 Advanced Copy Tools
+
+To give users maximum flexibility, the generator outputs two primary copy buttons per caption:
 
 - **Copy Full:** Copies the generated text, formatting, CTA, and the Hashtag block together. Perfect for X and Threads.
 - **Copy Caption Only:** Copies *only* the text and CTA. Perfect for Instagram users who prefer to post their hashtags in a separate comment.
